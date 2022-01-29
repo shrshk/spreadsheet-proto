@@ -16,9 +16,12 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
+    "lodash": "^4.17.21",
+    "mathjs": "^10.1.0",
     "next": "latest",
     "prop-types": "latest",
     "react": "latest",
+    "react-datasheet": "^1.4.9",
     "react-dom": "latest"
   },
   "devDependencies": {

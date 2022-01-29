@@ -1,4 +1,6 @@
 import * as React from 'react';
+import 'react-datasheet/lib/react-datasheet.css';
+import '../lib/styles/react-datasheet.css';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 import { ThemeProvider } from '@mui/material/styles';
