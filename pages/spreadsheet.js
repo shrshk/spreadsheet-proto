@@ -5,7 +5,7 @@ import Datasheet from 'react-datasheet';
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import { createGraph } from '../lib/util/grid-functions';
+import { createGraph, numberToLetters } from '../lib/util/grid-functions';
 
 export default function Spreadsheet(){
     const [rows, cols] = [10, 10];
@@ -22,7 +22,7 @@ export default function Spreadsheet(){
                     return {readOnly: true, value: ''}
                 }
                 if(row === 0) {
-                    return {readOnly: true, value: col}
+                    return {readOnly: true, value: numberToLetters(j-1)}
                 }
                 if(j === 0) {
                     return {readOnly: true, value: row}
